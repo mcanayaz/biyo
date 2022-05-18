@@ -5,6 +5,7 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import math
 st.title('DirectLDL')
 df = pd.read_csv("veri2zscore.csv", index_col=0)
 if st.checkbox('Show dataframe'):
